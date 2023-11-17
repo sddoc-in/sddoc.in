@@ -1,3 +1,5 @@
+
+import React from 'react';
 import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
@@ -5,11 +7,15 @@ import Code from "../Hero/Code";
 import Rotater from "../Atoms/Rotater";
 import { SERVICES_DATA } from "../constants/services";
 
+
 const Features = () => {
+
+
   return (
     <>
+
+      <Rotater data={SERVICES_DATA[4]} />
       <section id="features" className="py-16 md:py-20 lg:py-28">
-      <Rotater data={SERVICES_DATA[0]} />
       {/* <Code/> */}
         <div className="container">
           <SectionTitle

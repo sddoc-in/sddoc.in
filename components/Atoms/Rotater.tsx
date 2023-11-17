@@ -6,7 +6,7 @@ import { ServicesDataInterface } from "../constants/services";
 export default function Rotater({ data }: {data:ServicesDataInterface}) {
   return (
     <>
-      <div className="overflow-hidden w-full my-6 md:my-12">
+      <div className="overflow-hidden w-full my-6 md:my-4">
         <div className=" overflow-hidden relative w-full h-20">
           <div className="w-[200%] flex items-center justify-start absolute left-0 animate gap-4 ">
             {data.services.map((i: any) => {
