@@ -13,7 +13,7 @@ export default function Rotater({ data }: {data:ServicesDataInterface}) {
               return (
                 <div
                   key={i.name}
-                  className="flex cursor-pointer h-[65px] w-fit bg-white justify-center items-center b-a-shadow px-[20px] py-[10px] rounded-md hover:scale-105 hover:opacity-100 duration-150"
+                  className="flex cursor-pointer h-[65px] w-fit bg-slate-100 justify-center items-center b-a-shadow px-[20px] py-[10px] rounded-md hover:scale-105 hover:opacity-100 duration-150"
                 >
                   <div className={`mx-3 w-[${i.size}] h-auto`}>
                     <Image
@@ -32,7 +32,7 @@ export default function Rotater({ data }: {data:ServicesDataInterface}) {
               return (
                 <div
                   key={i.name}
-                  className="flex cursor-pointer h-[65px] w-fit bg-white justify-center items-center b-a-shadow px-[20px] py-[10px] rounded-md hover:scale-105 hover:opacity-100 duration-150"
+                  className="flex cursor-pointer h-[65px] w-fit bg-slate-100 justify-center items-center b-a-shadow px-[20px] py-[10px] rounded-md hover:scale-105 hover:opacity-100 duration-150"
                 >
                   <div className={`mx-3 w-[${i.size}] h-auto`}>
                     <Image
