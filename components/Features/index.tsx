@@ -19,8 +19,8 @@ const Features = () => {
       {/* <Code/> */}
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Transformative Solutions for Your Business"
+            paragraph="We specialize in API development, MERN STACK, AI & ML, Data Science, Python automation, and robust ERP & CRM solutions. Our expertise extends to delivering innovative SAAS solutions that drive business forward."
             center
           />
           
