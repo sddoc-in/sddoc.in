@@ -27,13 +27,13 @@ const Hero = () => {
                     href="https://nextjstemplates.com/templates/saas-starter-startup"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    🔥 Get Pro
+                    🔥 Get Pro of Happy client
                   </Link>
                   <Link
                     href="https://github.com/NextJSTemplates/startup-nextjs"
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
-                    Star on GitHub
+                    See demo
                   </Link>
                 </div>
               </div>
@@ -275,6 +275,7 @@ const Hero = () => {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(220 63) rotate(90) scale(43)"
               >
+              
                 <stop offset="0.145833" stopColor="white" stopOpacity="0" />
                 <stop offset="1" stopColor="white" stopOpacity="0.08" />
               </radialGradient>
