@@ -14,7 +14,7 @@ const Features = () => {
   return (
     <>
 
-      <Rotater data={SERVICES_DATA[4]} />
+      <Rotater data={SERVICES_DATA[6]} />
       <section id="features" className="py-16 md:py-20 lg:py-28">
       {/* <Code/> */}
         <div className="container">

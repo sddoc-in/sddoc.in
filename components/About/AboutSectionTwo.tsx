@@ -20,7 +20,7 @@ const AboutSectionTwo = () => {
                 src="/images/about/about-image-2-dark.svg"
                 alt="about image"
                 fill
-                className="drop-shadow-three hidden dark:block dark:drop-shadow-none"
+                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
               />
             </div>
           </div>
@@ -31,8 +31,8 @@ const AboutSectionTwo = () => {
                   Bug free code
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                 
+                hey
                 </p>
               </div>
               <div className="mb-9">

@@ -14,8 +14,14 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="About Us"
+       
+        description=" Welcome to sddoc.in, your go-to
+        destination for top-notch full-stack web development
+        solutions. As a team of passionate and skilled develpoers, we
+        are committed to delivering exceptional web development
+        services tailored to meet your unique business needs.
+        Whether you are a startup or a large enterprise, we have"
       />
       <AboutSectionOne />
       <AboutSectionTwo />
