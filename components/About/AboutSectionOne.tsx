@@ -24,12 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Our Services"
-                paragraph="Our expertise spans the entire stack, covering both front-end
-                and back-end development. Whether you need a stunning and
-                user-friendly website or a powerful and scalable web
-                application, we&lsquo;ve got you covered. Here&lsquo;s what
-                you can expect from our services:"
+                title="Unlock your Digital Potential with the Power of SDDOC"
+                paragraph="Leverage our extensive expertise in software development and data science, to build efficiency and unlock new possibilities. From cloud-based applications to Android development, we can provide you with the best tools for your success."
                 mb="44px"
               />
 
