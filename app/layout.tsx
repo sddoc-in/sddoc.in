@@ -1,11 +1,12 @@
 "use client"
-
+import React from "react";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
+import { Crisp } from "crisp-sdk-web";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,6 +15,9 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  React.useEffect(() => {
+    Crisp.configure("5f13b2f7-49e4-4119-9d9d-1a12ba37089a");
+  }, []);
   return (
     <html suppressHydrationWarning lang="en">
       {/*
