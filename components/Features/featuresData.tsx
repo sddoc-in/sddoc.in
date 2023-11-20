@@ -30,7 +30,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 1,
-    icon:<Image src="/services/feature/Aibot.png" alt="Data" width={100} height={100} /> ,
+    icon:<Image src="/services/feature/dataai.png" alt="Data" width={100} height={100} /> ,
     title: "AI & Machine Learning",
     paragraph:
       "We can build AI models to help you make better decisions and automate your business processes.",
