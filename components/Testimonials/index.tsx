@@ -8,8 +8,7 @@ const testimonialData: Testimonial[] = [
     name: "Musharof Chy",
     designation: "@TailGrids",
     content:
-      "We were blown away by the MERN stack solution provided by this company. Their expertise in React, Next.js ensured our web application was not only responsive and interactive but also incredibly user-friendly. Their attention to detail and dedication to quality are truly commendable.",
-    image: "/images/testimonials/auth-01.png",
+    "We were absolutely blown away by the MERN stack solution provided by this company. Their expertise in React, Next.js, and MongoDB ensured our web application was not only responsive and interactive but also incredibly user-friendly. Their attention to detail and dedication to quality are truly commendable, setting a new standard for excellence.",    image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
@@ -42,7 +41,7 @@ const Testimonials = () => {
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           {testimonialData.map((testimonial) => (
-            <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
+            <SingleTestimonial key={testimonial.id} testimonial={testimonial}  />
           ))}
         </div>
       </div>
