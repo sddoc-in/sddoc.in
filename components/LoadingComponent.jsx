@@ -1,4 +1,4 @@
-
+// @ts-ignore
 import { useLottie } from "lottie-react";
 import React from "react";
 
@@ -20,7 +20,7 @@ const LoadingComponent = ({ animationData, size }) => {
   //     {View}
   //   </div>
   // );
-  return <div className={`w-${size} h-auto`} >{View}</div>;
+  return <div className={`w-${size} h-auto max-w-[850px]`} >{View}</div>;
 };
 
 export default LoadingComponent;

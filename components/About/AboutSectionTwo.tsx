@@ -16,16 +16,16 @@ const AboutSectionTwo = () => {
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">
-            <div className="wow fadeInUp max-w-[470px]" data-wow-delay=".2s">
+            <div className="wow fadeInUp max-w-[550px]" data-wow-delay=".2s">
               <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                <h3 className="mb-4 text-xl font-bold text-black !leading-[3rem] dark:text-white sm:text-[3rem] lg:text-xl xl:text-[2.5rem]">
                 Innovative Software Solutions for Your Latest Development Projects
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                  
                 With SDDOC, you can have access to the latest tools, technologies and support needed to build successful software-based solutions.                </p>
               </div>
-              <div className="mb-9">
+              {/* <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Premier support
                 </h3>
@@ -42,7 +42,7 @@ const AboutSectionTwo = () => {
                   Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
                   consectetur adipiscing elit setim.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

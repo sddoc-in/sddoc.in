@@ -12,9 +12,9 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "sddoc software doctor",
-  description: "This is Home for Startup Nextjs Template",
-  // other metadata
+  title: "Sddoc Pioneering Software Solutions for Tomorrow’s Challenges",
+  description: "Your trusted partner in innovative software development. We harness the power of technology to build dynamic, efficient, and user-friendly solutions that meet your business needs. Experience the future of software with Sddoc.",
+//  icons: "/images/logo/sddoc.png"
 };
 
 export default function Home() {
@@ -24,12 +24,12 @@ export default function Home() {
       <Hero />
       <Features />
       <Video />
-      <Brands />
+      <Testimonials />
+      {/* <Brands /> */}
       <AboutSectionOne />
       <AboutSectionTwo />
-      <Testimonials />
       <Pricing />
-      <Blog />
+      {/* <Blog /> */}
       <Contact />
     </>
   );

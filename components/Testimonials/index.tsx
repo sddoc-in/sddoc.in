@@ -6,28 +6,26 @@ const testimonialData: Testimonial[] = [
   {
     id: 1,
     name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    designation: "@TailGrids",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "We were blown away by the MERN stack solution provided by this company. Their expertise in React, Next.js ensured our web application was not only responsive and interactive but also incredibly user-friendly. Their attention to detail and dedication to quality are truly commendable.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
     name: "Devid Weilium",
-    designation: "Founder @UIdeck",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    designation: "@UIdeck",
+    content:"Working with this company on our mobile app development project was a game-changer for us. Their ability to deliver native and cross-platform mobile apps for both Android and iOS using technologies like React Native, Ionic, Flutter, and Xamarin is unparalleled. We're thrilled with the results and impressed by their commitment to innovation.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
     name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
+    designation: "@Lineicons",
+    content:"We couldn't be happier with the data science and automation solutions provided by this company. Their expertise in scraping data from websites and automating repetitive tasks has saved us countless hours and resources. Their dedication to understanding our business needs and delivering tailored solutions sets them apart in the industry.",
+        image: "/images/testimonials/auth-03.png",
     star: 5,
   },
 ];
@@ -37,8 +35,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Our Satisfied Customers"
+          paragraph=""
           center
         />
 

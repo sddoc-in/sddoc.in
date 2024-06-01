@@ -20,18 +20,20 @@ const Features = () => {
             center
           />
 
-          <div className="grid grid-cols-1 gap-x-8 gap-y-8 md:grid-cols-2 lg:grid-cols-3">
-            {featuresData.map((feature) => (
-              <div
-                key={feature.id}
-                className="rounded-lg bg-[#1e232e] hidden dark:block p-6 shadow-md"
-              >
-                <SingleFeature feature={feature} />
-              </div>
-            ))}
-          </div>
+<div className="grid grid-cols-1 gap-x-8 gap-y-8 md:grid-cols-2 lg:grid-cols-3">
+      {featuresData.map((feature, index) => (
+        <div
+          key={feature.id}
+          className={`rounded-lg bg-[#1e232e] hidden dark:block p-6 shadow-md ${
+            index === featuresData.length - 1 ? 'lg:col-start-2' : ''
+          }`}
+        >
+          <SingleFeature feature={feature} />
+        </div>
+      ))}
+    </div>
 
-          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+          {/* <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
             {featuresData.map((feature) => (
               <div
                 key={feature.id}
@@ -40,7 +42,7 @@ const Features = () => {
                 <SingleFeature key={feature.id} feature={feature} />
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
     </>

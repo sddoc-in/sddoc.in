@@ -42,5 +42,13 @@ const featuresData: Feature[] = [
     paragraph:
       "We can help you make sense of your data and use it to make better decisions.",
   },
+  {
+    id: 1,
+    icon: <Image src="/services/feature/dataprocess.png" alt="PowerBi" width={100} height={100} />,
+    title: "Microsoft Fabric",
+    paragraph:
+      "Unleashing the Power of Data. A unified analytics platform integrating Power BI, Azure Synapse Analytics, and more, transforming raw data into actionable insights. Experience seamless data management with Microsoft Fabric.",
+  },
+
 ];
 export default featuresData;
