@@ -37,7 +37,7 @@ const NewsLatterBox = () => {
     } catch (error) {
       // console.error('Error:', error);
       setMessage(error.response?.data?.error || 'An error occurred, please try again.');
-      setStatus({ message: 'This Email Alredy Subscribed us', type: 'error' });
+      setStatus({ message: 'This Email Already Subscribed us', type: 'error' });
     }
   };
 
